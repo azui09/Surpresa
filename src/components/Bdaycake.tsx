@@ -1,6 +1,7 @@
 import * as THREE from "three";
 import { useGLTF } from "@react-three/drei";
 import type { GLTF } from "three-stdlib";
+import type { ThreeElements } from "@react-three/fiber";
 
 type GLTFResult = GLTF & {
   nodes: {
@@ -16,13 +17,12 @@ type GLTFResult = GLTF & {
     ["Icecream2.001"]: THREE.MeshBasicMaterial;
     ["Material.001"]: THREE.MeshBasicMaterial;
   };
-  animations: GLTFAction[];
 };
 
-export function Bdaycake(props: JSX.IntrinsicElements["group"]) {
+export function Bdaycake(props: ThreeElements["group"]) {
   const { nodes, materials } = useGLTF(
     "/models/birthday_cake.glb"
-  ) as GLTFResult;
+  ) as unknown as GLTFResult;
   return (
     <group {...props} dispose={null}>
       <group
