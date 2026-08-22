@@ -10,28 +10,28 @@ export interface Memory {
 export const memoriesData: Memory[] = [
   {
     id: 1,
-    imageUrl: "./public/images/Pedido.jpeg",
+    imageUrl: "/images/Pedido.jpeg",
     title: "O pedido de namoro",
     description:
       "O dia na qual eu pedi você em namoro, lá na roda gigante. Depois fomos passear mais no parque, andamos naquele carrinho de pedalar.",
   },
   {
     id: 2,
-    imageUrl: "./public/images/Museu.jpeg",
+    imageUrl: "/images/Museu.jpeg",
     title: "O dia em que fomos no museu",
     description:
       "O dia na qual eu cortei o cabelo e nós se encontramos lá no museu, foi um dia complicado, mas no final das contas, foi muito divertido",
   },
   {
     id: 3,
-    imageUrl: "./public/images/Baile.jpeg",
+    imageUrl: "/images/Baile.jpeg",
     title: "O dia do baile",
     description:
       "O dia onde nós tinhamos ido para o baile de formatura. Tenho que confessar que você estava muito linda.",
   },
   {
     id: 4,
-    imageUrl: "./public/images/viagemsocorro.jpeg",
+    imageUrl: "/images/viagemsocorro.jpeg",
     title: "A viagem para Socorro",
     description:
       "Os dias na qual fomos para uma viagem juntos, foi divertido demais. Eu pude visitar diversos lugares, e o melhor de tudo, foi com você.",
